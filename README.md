@@ -172,7 +172,7 @@ Folder PATH listing
 
 ## 4.3. Detailed Directory Breakdown
 
-### Root Directory
+### 4.3.1. Root Directory
 
 ```
 Folder PATH listing
@@ -187,7 +187,7 @@ Folder PATH listing
 - `install.sh`: The automated installation script that handles backup creation, symbolic link creation, and error handling
 - `README.md`: Comprehensive documentation explaining the project, installation process, and customization options
 
-### Backups Directory
+### 4.3.2. Backups Directory
 
 ```
 Folder PATH listing
@@ -204,7 +204,7 @@ Folder PATH listing
 - Allows easy restoration if needed
 - Created automatically during installation
 
-### Git Directory
+### 4.3.3. Git Directory
 
 ```
 Folder PATH listing
@@ -219,7 +219,7 @@ Folder PATH listing
 - `.gitignore_global`: Global ignore patterns for all Git repositories
 - `.gitattributes`: Global Git attributes for consistent line endings and file handling
 
-### Images Directory
+### 4.3.4. Images Directory
 
 ```
 Folder PATH listing
@@ -234,7 +234,7 @@ Folder PATH listing
 - `banner.png`: Project banner image used in documentation
 - `banner.png…`: Windows zone identifier file (system-generated)
 
-### Misc Directory
+### 4.3.5. Misc Directory
 
 ```
 Folder PATH listing
@@ -251,7 +251,7 @@ Folder PATH listing
 - `.curlrc`: cURL configuration
 - `.wgetrc`: Wget configuration
 
-### Shell Directory
+### 4.3.6. Shell Directory
 
 ```
 Folder PATH listing
@@ -269,7 +269,7 @@ Folder PATH listing
 - `.bash_aliases`: Separate file for shell aliases
 - `.bash_functions`: Separate file for shell functions
 
-### Vim Directory
+### 4.3.7. Vim Directory
 
 ```
 Folder PATH listing
