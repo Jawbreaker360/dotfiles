@@ -13,6 +13,128 @@ This will create your own copy of this project, which you can modify freely — 
 
 <h1 align="center">Dotfiles: A Complete Beginner's Guide</h1>
 
+---
+***Table of Contents***
+
+<details>
+  <summary><a href="#1-about-this-repository"><i><b>1. About This Repository</b></i></a></summary>
+  <div>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#11-who-is-this-tutorial-for">1.1. Who Is This Tutorial For?</a><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#12-what-will-you-learn">1.2. What Will You Learn?</a><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#13-prerequisites">1.3. Prerequisites</a><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#14-project-structure">1.4. Project Structure</a><br>
+  </div>
+</details>
+&nbsp;
+
+<div>
+  &nbsp;&nbsp;&nbsp;&nbsp;<a href="#2-what-are-dotfiles"><i><b>2. What are dotfiles?</b></i></a>
+</div>
+&nbsp;
+
+<div>
+  &nbsp;&nbsp;&nbsp;&nbsp;<a href="#3-why-use-dotfiles"><i><b>3. Why Use Dotfiles?</b></i></a>
+</div>
+&nbsp;
+
+<details>
+  <summary><a href="#4-whats-inside-this-repository"><i><b>4. What's Inside This Repository</b></i></a></summary>
+  <div>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#41-project-structure-overview">4.1. Project Structure Overview</a><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#42-complete-directory-structure">4.2. Complete Directory Structure</a><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#43-detailed-directory-breakdown">4.3. Detailed Directory Breakdown</a><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#44-configuration-file-purposes">4.4. Configuration File Purposes</a><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#45-file-organization-principles">4.5. File Organization Principles</a><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#46-adding-new-configuration-files">4.6. Adding New Configuration Files</a><br>
+  </div>
+</details>
+&nbsp;
+
+<details>
+  <summary><a href="#5-quick-start-for-beginners"><i><b>5. Quick Start (For Beginners)</b></i></a></summary>
+  <div>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#51-step-1-clone-the-repository">5.1. Step 1: Clone the Repository</a><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#52-step-2-run-the-installation-script">5.2. Step 2: Run the Installation Script</a><br>
+  </div>
+</details>
+&nbsp;
+
+<details>
+  <summary><a href="#6-what-happens-during-installation"><i><b>6. What Happens During Installation?</b></i></a></summary>
+  <div>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#61-example-installation-output">6.1. Example Installation Output:</a><br>
+  </div>
+</details>
+&nbsp;
+
+<details>
+  <summary><a href="#7-understanding-the-components"><i><b>7. Understanding the Components</b></i></a></summary>
+  <div>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#71-shell-configuration-shell">7.1. Shell Configuration (`shell/`)</a><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#72-git-configuration-git">7.2. Git Configuration (`git/`)</a><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#73-vim-configuration-vim">7.3. Vim Configuration (`vim/`)</a><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#74-miscellaneous-misc">7.4. Miscellaneous (`misc/`)</a><br>
+  </div>
+</details>
+&nbsp;
+
+<details>
+  <summary><a href="#8-customizing-your-dotfiles"><i><b>8. Customizing Your Dotfiles</b></i></a></summary>
+  <div>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#81-adding-a-new-configuration-file">8.1. Adding a New Configuration File</a><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#82-modifying-existing-configurations">8.2. Modifying Existing Configurations</a><br>
+  </div>
+</details>
+&nbsp;
+
+<details>
+  <summary><a href="#9-troubleshooting"><i><b>9. Troubleshooting</b></i></a></summary>
+  <div>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#91-permission-denied-error">9.1. "Permission Denied" Error</a><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#92-command-not-found-after-installation">9.2. "Command Not Found" After Installation</a><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#93-want-to-restore-original-files">9.3. Want to Restore Original Files?</a><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#94-remove-all-dotfiles-links">9.4. Remove All Dotfiles Links</a><br>
+  </div>
+</details>
+&nbsp;
+
+<details>
+  <summary><a href="#10-learning-more"><i><b>10. Learning More</b></i></a></summary>
+  <div>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#101-understanding-symbolic-links">10.1. Understanding Symbolic Links</a><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#102-version-control-your-changes">10.2. Version Control Your Changes</a><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#103-sharing-your-dotfiles">10.3. Sharing Your Dotfiles</a><br>
+  </div>
+</details>
+&nbsp;
+
+<div>
+  &nbsp;&nbsp;&nbsp;&nbsp;<a href="#11-next-steps"><i><b>11. Next Steps</b></i></a>
+</div>
+&nbsp;
+
+<div>
+  &nbsp;&nbsp;&nbsp;&nbsp;<a href="#12-contributing"><i><b>12. Contributing</b></i></a>
+</div>
+&nbsp;
+
+<div>
+  &nbsp;&nbsp;&nbsp;&nbsp;<a href="#13-contact-information"><i><b>13. Contact Information</b></i></a>
+</div>
+&nbsp;
+
+<div>
+  &nbsp;&nbsp;&nbsp;&nbsp;<a href="#14-license"><i><b>14. License</b></i></a>
+</div>
+&nbsp;
+
+<div>
+  &nbsp;&nbsp;&nbsp;&nbsp;<a href="#15-acknowledgments"><i><b>15. Acknowledgments</b></i></a>
+</div>
+&nbsp;
+
+---
+
 # 1. About This Repository
 
 This repository provides a comprehensive, beginner-friendly dotfiles management system designed to help developers quickly set up and maintain a consistent development environment across multiple machines. The project aims to solve the common problem of losing custom configurations when switching computers or reinstalling operating systems.
