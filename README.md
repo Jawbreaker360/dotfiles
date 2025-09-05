@@ -13,6 +13,8 @@ This will create your own copy of this project, which you can modify freely — 
 
 <h1 align="center">Dotfiles: A Complete Beginner's Guide</h1>
 
+A beginner-friendly dotfiles management system that automates development environment setup across multiple machines. Features one-command installation with automatic backups, modular organization, and comprehensive documentation for developers of all skill levels.
+
 ---
 ***Table of Contents***
 
