@@ -1,4 +1,8 @@
-# Dotfiles: A Complete Beginner's Guide > **What are dotfiles?** Dotfiles are hidden configuration files (they start with a dot `.`) that customize your development environment. Think of them as your personal settings for tools like your shell, text editor, and version control system.
+# Dotfiles: A Complete Beginner's Guide 
+
+## What are dotfiles?
+
+Dotfiles are hidden configuration files (they start with a dot `.`) that customize your development environment. Think of them as your personal settings for tools like your shell, text editor, and version control system.
 
 ## 🎯 Why Use Dotfiles?
 
