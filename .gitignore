@@ -9,8 +9,3 @@ backups/
 
 # Ignore machine-specific files
 **/*.local
-
-# Include README, LICENSE and banner image
-!README.md
-!LICENSE
-!banner.png
