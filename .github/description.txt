@@ -1,0 +1,1 @@
+A beginner-friendly dotfiles repository with automated installation, comprehensive documentation, and step-by-step tutorials. Perfect for developers new to dotfiles who want to version control their development environment across multiple machines.
