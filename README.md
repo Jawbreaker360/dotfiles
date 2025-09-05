@@ -534,23 +534,6 @@ Found a bug or want to improve something? Great! Here's how:
 
 For questions not addressed in the resources above, please connect with [Mostafa Rezaee](https://www.linkedin.com/in/mostafa-rezaee/) on LinkedIn for personalized assistance.
 
-**Email:** [mostafa.rezaee@gmail.com](mailto:mostafa.rezaee@gmail.com)
-**LinkedIn:** [Mostafa Rezaee](https://www.linkedin.com/in/mostafa-rezaee/)
-
-Whether you need help with:
-
-Setting up your development environment
-
-Customizing configurations for your specific needs
-
-Troubleshooting installation issues
-
-Collaboration opportunities
-
-General questions about dotfiles and development workflows
-
-Feel free to reach out! I'm always happy to help fellow developers improve their development experience.
-
 # 14. License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
