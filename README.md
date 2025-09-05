@@ -647,12 +647,30 @@ Your dotfiles are now in a Git repository! You can:
 
 # 12. Contributing
 
-Found a bug or want to improve something? Great! Here's how:
+Found a bug or want to improve something? Great! We welcome contributions from developers of all skill levels.
 
-1. Fork this repository
-2. Make your changes
-3. Test the installation script
-4. Submit a pull request
+## Quick Start for Contributors
+
+1. **Fork this repository** by clicking the "Fork" button
+2. **Clone your fork** and create a new branch for your changes
+3. **Make your changes** and test them thoroughly
+4. **Submit a pull request** using our template
+
+## Getting Help
+
+- **Bug reports**: Use our [bug report template](.github/ISSUE_TEMPLATE/bug_report.md)
+- **Feature requests**: Use our [feature request template](.github/ISSUE_TEMPLATE/feature_request.md)
+- **Contributing guidelines**: See our [CONTRIBUTING.md](.github/CONTRIBUTING.md) for detailed information
+- **Pull requests**: Use our [PR template](.github/pull_request_template.md)
+
+## Types of Contributions We Welcome
+
+- **Configuration improvements**: Better aliases, functions, or settings
+- **Documentation**: Better explanations, examples, or troubleshooting guides
+- **Installation script**: Error handling, cross-platform support, or new features
+- **Bug fixes**: Solutions for installation or configuration issues
+
+For detailed information about contributing, please read our [Contributing Guidelines](.github/CONTRIBUTING.md).
 
 # 13. Contact Information
 
