@@ -1,0 +1,11 @@
+# Ignore backup files
+backups/
+
+# Ignore potentially sensitive information
+**/.*_history
+**/.git-credentials
+**/.ssh/
+**/.gnupg/
+
+# Ignore machine-specific files
+**/*.local
